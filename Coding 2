@@ -14,11 +14,11 @@ public class q22 {
 		int items[] = new int[num_items];
 		
 		System.out.print("Enter the value of all items(separated by space) : ");
-		for(int i=0;i<items.length;i++) {
+		for(int i = 0; i<items.length; i++) {
 			items[i] = sc.nextInt();
 		}
 		
-		for(int i= 0; i< num_items; i++)
+		for(int i = 0; i< num_items; i++)
 		{
 			System.out.print(i + ":");
 			for(int j = 0; j < items[i]; j++)
